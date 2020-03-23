@@ -1,0 +1,52 @@
+.build-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.build-control .btn {
+    display: block;
+    width: 80px;
+    font: inherit;
+    padding: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #AA6817;
+}
+
+.build-control .btn:disabled {
+    background-color: #ac9980;
+    border: 1px solid #7e6365;
+    color: #ccc;
+    cursor: default;
+}
+
+.build-control .btn:hover:disabled {
+    background-color: #ac9980;
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.build-control .label {
+    padding: 10px;
+    font-weight: bold;
+    width: 80px;
+}
+
+.build-control .less {
+    background-color: #d39953;
+    color: white;
+}
+
+.build-control .more {
+    background-color: #8f5e1e;
+    color: white;
+}
+
+.build-control .more:hover,
+.build-control .more:active {
+    background-color: #99703f;
+    color: white;
+}
